@@ -1,8 +1,8 @@
 ########################################################### 
-# AUTHOR  : Brian O'Connell  @LifeOfBrianOC
+# Brian O'Connell  @LifeOfBrianOC
 # https://lifeofbrianoc.wordpress.com/
 # It will do the following:
-# Validate AD USers Credentials based on csv input
+# Validate AD Users Credentials based on csv input
 # Reset user passwords if they do not match the csv
 ########################################################### 
 
