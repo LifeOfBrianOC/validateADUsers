@@ -29,7 +29,7 @@ Function Test-ADAuthentication {
 	(new-object directoryservices.directoryentry "",$username,$password).psbase.name -ne $null
 }
 
-# Import CSV and only read lines that have an entry in createGroup column
+# Import CSV and only read lines that have an entry in samAccountName column
 	$csv = @()
 	$csv = Import-Csv -Path $CSVPath |
 	Where-Object {$_.samAccountName}
